@@ -28,7 +28,7 @@ let hasil1 = angka1.pop();
 
 // 6. find() = untuk mencari data berdasarkan kriteria, jika ada ditampilan, jika tidak ada maka undefined
 const number = [23, 24, 25, 26, 27];
-const find = number.find(e => e >= 23);
+const find = number.find(e => e >= 29);
 // console.log(find);
 
 // 7. filter() = untuk mencari semua elemen di dalam array yang sesuai dengan kriteria tertentu
@@ -49,4 +49,4 @@ const hasilNames = names.indexOf('nanang');
 // 10. fill() = untuk mengganti semua elemen pada array
 const rasa = ['pedas', 'manis', 'asam'];
 rasa.fill('gurih');
-// console.log(rasa); 
+// console.log(rasa);
