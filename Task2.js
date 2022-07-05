@@ -21,5 +21,5 @@ const callback = output => {
         return "Data tidak ditemukan";
     }
 }
-
+ 
 console.log(searchName("an", 3, callback));
